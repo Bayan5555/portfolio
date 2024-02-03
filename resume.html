@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Bayan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Bayan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section class="cv-section">
+        <h2>Personal Information</h2>
+        <p>Name Arabic: بيان يوسف الشمرانى</p>
+        <p>Name English: Bayan Yousuf Al-Shamrani</p>
+    </section>
+
+    <section class="cv-section">
+        <h2>Professional Experience</h2>
+        <p>
+            <strong>Corona Vaccination Center, Riyadh</strong><br>
+            <em>January 2021 - January 2022</em><br>
+            Responsibilities included public-facing interactions and problem-solving.<br>
+            Recorded visitor data using Excel.<br>
+            Contributed to the development of the vaccination system.
+        </p>
+    </section>
+
+    <section class="cv-section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Graphic design</li>
+            <li>Creative thinking</li>
+            <li>Proficient in computer applications</li>
+            <li>Customer interaction</li>
+            <li>Excellent English language skills</li>
+        </ul>
+    </section>
+
+    <section class="cv-section">
+        <h2>Education</h2>
+        <p>Imam Mohammad Bin Saud Islamic University - Bachelor's in Information Systems Management</p>
+    </section>
+
+    <section class="cv-section">
+        <h2>Professional Courses</h2>
+        <ul>
+            <li>Self-Development Course - Drop Program</li>
+            <li>Time Management Course - Drop Program</li>
+            <li>Stress Management Course at Work - Drop Program</li>
+            <li>Basic English Grammar Course - Drop Program</li>
+            <li>Customer Needs Analysis in Graphic Design Course - Drop Program</li>
+        </ul>
+    </section>
+
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Bayan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

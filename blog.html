@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Bayan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Bayan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Blogs</h1>
+        <div class="experience-details-container">
+            <div class="about-containers about-containers2">
+                <div class="details-container details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">Conntected App</h2>
+                        <div class="btn-container">
+                            <p>
+                                I led the development of a chat application, starting with a detailed requirements
+                                analysis to understand communication needs. Utilizing UML diagrams and agile
+                                methodologies, I ensured a systematic approach to design, technology selection, and
+                                scalability. Emphasizing quality assurance and security measures, the project culminated
+                                in a successful, user-friendly, and secure chat application through effective team
+                                collaboration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-container details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">EventEase</h2>
+                        <div class="btn-container">
+                            <p>I played a crucial role in developing an event scheduler app by analyzing user
+                                requirements, designing intuitive interfaces, and facilitating agile development.
+                                Prioritizing quality assurance, I implemented rigorous testing to ensure reliability.
+                                Through collaborative teamwork and effective communication, we successfully delivered a
+                                user-friendly and functional app.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details-container details-container2 color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <div>
+                        <h2 class="experience-sub-title project-title">Recipe Realm</h2>
+                        <div class="btn-container">
+                            <p>
+                                I played a key role in developing a cooking recipes app, focusing on an intuitive user
+                                experience and efficient recipe categorization. Using agile methodologies, I adapted to
+                                evolving trends and user feedback. Quality assurance was a priority, ensuring the app's
+                                reliability. Through collaborative efforts, we delivered a user-friendly and
+                                comprehensive cooking companion.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Bayan. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
